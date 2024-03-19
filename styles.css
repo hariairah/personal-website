@@ -232,13 +232,10 @@ a:hover{
 #about {
     text-align: center;
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 25rem;
+    margin: 15rem auto 8rem;
     padding-top: 2em;
     padding-left: 0.75em;
     padding-bottom: 1em;
-    margin-bottom: 8rem;
     background-color: #F6ECA9;
     font-size: 1.7rem;
     font-weight: 800;
@@ -340,13 +337,10 @@ a:hover{
     'one four four four four';
     list-style: none;
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin: 8rem auto;
     position: relative;
     gap: 1.75rem;
-    font-family: "Space Grotesk", sans-serif;
+    justify-content: center;
 }
 
 .skill{
@@ -505,7 +499,7 @@ a:hover{
     margin-top: 5rem;
     gap: 1em;
     color: white;
-    justify-content: center;
+    
 }
 .project-one,.project-two,.project-three{
     text-align: center;
@@ -694,12 +688,13 @@ a:hover{
     border-radius: 15px;
     margin-bottom: 1em;
     color: black;
-    border: 2px solid purple;
+    border: 5px solid rgb(87, 133, 185);
 }
 
 .icon-button-gi > a{
     color: black;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .icon-button-1{
@@ -712,7 +707,7 @@ a:hover{
     font-size: 2em;
     border-radius: 15px; 
     margin-bottom: 1em;
-    border: 2px solid purple;
+    border: 5px solid rgb(87, 133, 185);
 }
 
 .icon-button-1 > a{
@@ -742,6 +737,7 @@ a:hover{
       padding-bottom: 2em;
       margin-right: 8em;
       border-radius: 15px;
+      border: 5px solid rgb(87, 133, 185);
 }
 
 .book_heading{
