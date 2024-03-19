@@ -550,8 +550,8 @@ a:hover{
 } 
 
 .p1-button {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-weight: 600;
     margin-left: 25%;
     margin-right: 25%;
@@ -576,8 +576,8 @@ a:hover{
   }
 
   .p2-button {
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     font-weight: 600;
     margin-left: 25%;
     margin-right: 25%;
