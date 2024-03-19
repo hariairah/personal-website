@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haria's website</title>
+    <link rel="icon" href="./assets/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="hero">
+   <nav id="desktop-nav">
+    <div class="navbar">
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#skill-section">Skills</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#contact">Get in touch!</a>
+            </li>
+        </ul>
+    </div>
+   </nav>
+   <nav id="hamburger-nav">
+    <!-- <div class="logo">
+        <img src="assets/logo.png">
+    </div> -->
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li>
+                <a href="#about" onclick="toggleMenu()">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#projects" onclick="toggleMenu()">Projects</a>
+            </li>
+            <li>
+                <a href="#contact" onclick="toggleMenu()">Get in touch!</a>
+            </li> 
+        </div>
+    </div>
+   </nav>
+
+    <div class="intro-div">
+        <div class="section__text-container">
+            <p class="section_p1">Hello 👋, I'm</p>
+            <h1 class="title">Haria!</h1>
+            <p class="section_p2">A budding <span class="bold">developer</span> and <span class="bold">bug-bounty</span> enthusiast </p>
+        </div>
+        <div class="image">
+            <img src="assets/girl-laptop.png">
+        </div>
+    </div>
+</div>
+
+<div id="about">
+    <img src="/assets/web-design.png" class="web-design">
+    <p class="about-text-one">I'm a Computer Science student 💻 <br> who is passionate about web design, ethical hacking and 3D object modelling!</p>
+    <img src="/assets/stars.png" class="stars">
+</div>
+
+<div id="skill-section">
+<div class="intro-skill"><p class="skill-intro">I HAVE EXPLORED AND EXPERIMENTED WITH<img class="skill-intro-img" src="/assets/leaves.png"></p></div>
+   <div class="skills">
+    <div class="prog-lang">
+        <h2>Programming Languages</h2>
+        <ul class="skill">
+           <b><li>Python</li>
+            <li>C</li>
+            <li>HTML + CSS</li>
+            <li>JavaScript</li>
+            <li>C++</li>
+            <li>Java</li>
+            <li>Solidity</li></b>
+        </ul>
+</div>
+    <div class="cybersec">
+        <h2>Cybersecurity-related tools</h2>
+        <ul class="skill">
+            <b><li>Burp Suite</li>
+            <li>Wireshark</li>
+            <li>Metasploit</li>
+            <li>John The Ripper</li></b>
+        </ul>
+</div>
+    <div class="frameworks">
+        <h2>Frameworks like</h2>
+        <ul class="skill">
+            <b><li>ReactJS</li>
+            <li>NextJS</li>
+            <li>Flask</li></b>
+        </ul>
+        </div>
+    <div class="other">
+        <h2>I've also worked with</h2>
+        <ul class="skill">
+          <b><li>MySQL</li>
+            <li>Linux/Unix</li>
+            <li>Github</li>
+            <li>Blockchain and NFTs</li>
+            <li>AWS</li></b>
+        </ul>
+    </div>
+   </div>
+</div>
+
+<div class="projects-intro"><p>SOME OF MY PROJECTS</p></div>
+   <div id="projects">
+    <div class="project-one" onmouseover="playGifOne()" onmouseout="pauseGifOne()">
+        <h2 class="proj-heading">An NFT based approach to Invoice Discounting</h2>
+        <a href="https://github.com/hariairah/An-NFT-based-approach-for-Invoice-Discounting" target="_blank">
+        <button class="p1-button" >See More -></button></a>
+    </div>
+    <div class="project-two" onmouseover="playGifTwo()" onmouseout="pauseGifTwo()">
+        <h2 class="proj-heading">Discord weather bot, Qihou</h2>
+        <a href="https://github.com/hariairah/qihou/tree/main/qihou-real" target="_blank">
+        <button class="p2-button">See More -></button></a>
+    </div>
+    <div class="project-three" onmouseover="playGifThree()" onmouseout="pauseGifThree()">
+        <h2 class="proj-heading">Keylogger for Linux</h2>
+        <a href="https://github.com/hariairah/keylogger/tree/main" target="_blank">
+        <button class="p2-button">See More -></button></a>
+    </div>
+   </div>
+
+   <div id="contact">
+    <div class="social">
+        <div class="icons">
+            <ul>
+            <!-- <li>
+                <button class="icon-button-li">
+                    <i class="fa fa-linkedin" aria-hidden="true" target="_blank" onclick="window.open('https://www.linkedin.com/in/haria-mehkhad-198091222/','_blank')">   Linkedin</i>
+                </button>
+            </li> -->
+            <li>
+                <button class="icon-button-gi">
+                    <a href="https://github.com/hariairah" target="_blank">Github</a>
+                </button>
+            </li>
+            <li>
+                <button class="icon-button-1">
+                    <a href="https://community.spline.design/@haria" target="_blank">Spline</a>
+                </button>
+            </li>
+            </ul>
+        </div>
+        <div class="books">
+            <p class="book_heading">Books that I'm currently reading</p>
+            <p class="book_1">📖 Bug Bounty Bootcamp: The Guide to Finding <br>and Reporting Web Vulnerabilities by Vickie Li</p>
+            <p class="book_2">📖 The Alchemist by Paulo Coelho</p>
+        </div>
+    </div>
+</div>
+
+   <script src="script.js"></script>
+</body>
+</html>
