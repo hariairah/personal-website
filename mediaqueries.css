@@ -1,6 +1,6 @@
 @media screen and (max-width: 1000px) {
     html{
-        background-color: yellow;
+        background: #430A5D;
     }
     #desktop-nav{
         display: none;
