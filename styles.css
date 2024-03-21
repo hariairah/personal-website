@@ -656,7 +656,7 @@ a:hover{
 } */
 
 .icons{
-    margin-left: 8em;
+    margin: auto;
 }
 
 .icons > ul{
@@ -736,7 +736,7 @@ a:hover{
       padding-left: 2em;
       padding-right: 2em;
       padding-bottom: 2em;
-      margin-right: 8em;
+      margin: auto;
       border-radius: 15px;
       border: 5px solid rgb(87, 133, 185);
 }
