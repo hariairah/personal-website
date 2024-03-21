@@ -14,4 +14,13 @@
     #projects{
         justify-content: center;
     }
+    .projects-intro{
+        margin: auto;
+    }
+    .skill-intro{
+        margin: auto;
+    }
+    .image{
+        display: none;
+    }
 }
