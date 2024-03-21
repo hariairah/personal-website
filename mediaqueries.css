@@ -23,4 +23,16 @@
     .image{
         display: none;
     }
+    .intro-div{
+        font-size: 1rem;
+    }
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        padding-bottom: 4rem;
+        margin-top: 5rem;
+        gap: 1em;
+    }
 }

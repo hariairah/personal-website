@@ -48,7 +48,7 @@ a,.btn{
 
 .hero{
     height: 100vh;
-    margin-bottom: 3rem;
+    margin-bottom: 7rem;
 }
 
 /* DESKTOP NAV */
@@ -180,28 +180,22 @@ a:hover{
     flex-wrap: wrap;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    margin-left: 4rem;
-    margin-bottom: 4rem;
+    margin: auto;
     justify-content: space-between;
     align-items: center;
 }
 
-.section__model-container{
-    margin-left: 5rem;
-}
-
 .section__text-container{
-    margin-left: 8rem;
+    margin: auto;
     font-size: 2rem;
     font-weight: 900;
     text-align: center;
 }
 
 .image{
-    margin-right: 12rem;
+    margin: auto;
     padding-top: 3rem;
     padding-bottom: 0;
-    margin-bottom: 8rem;
 }
 
 .title{
