@@ -5,14 +5,13 @@
     #hamburger-nav{
         display: flex;
     }
-}
-@media screen and (max-width: 1000px) {
     .books{
         margin: auto;
     }
-}
-@media screen and (max-width: 1000px) {
     #projects{
         justify-content: center;
+    }
+    html{
+        background-color: blueviolet;
     }
 }
